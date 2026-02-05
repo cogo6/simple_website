@@ -5,7 +5,7 @@ const dataDir = path.join(__dirname, '..', 'data');
 const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
 const mediaPath = path.join(dataDir, 'media_by_taxon.json');
 const speciesPath = path.join(dataDir, 'species_ids.json');
-const cladePath = path.join(dataDir, 'clade.json');
+const taxonomyPath = path.join(dataDir, 'taxonomy.json');
 
 let nodes = [];
 let mediaByTaxon = {};
@@ -16,7 +16,7 @@ if (fs.existsSync(ndjsonPath) && fs.existsSync(mediaPath) && fs.existsSync(speci
   mediaByTaxon = JSON.parse(fs.readFileSync(mediaPath, 'utf8'));
   speciesIds = JSON.parse(fs.readFileSync(speciesPath, 'utf8'));
 } else {
-  const parsed = JSON.parse(fs.readFileSync(cladePath, 'utf8'));
+  const parsed = JSON.parse(fs.readFileSync(taxonomyPath, 'utf8'));
   nodes = parsed.nodes || [];
   for (const node of nodes) {
     mediaByTaxon[node.id] = { imageUrl: node.imageUrl || '', imageCredit: node.imageCredit || '' };

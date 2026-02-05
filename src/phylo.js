@@ -31,7 +31,7 @@ class PhyloStore {
     const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
     const mediaPath = path.join(dataDir, 'media_by_taxon.json');
     const speciesPath = path.join(dataDir, 'species_ids.json');
-    const cladePath = path.join(dataDir, 'clade.json');
+    const taxonomyPath = path.join(dataDir, 'taxonomy.json');
 
     if (fs.existsSync(ndjsonPath) && fs.existsSync(mediaPath) && fs.existsSync(speciesPath)) {
       const lines = fs.readFileSync(ndjsonPath, 'utf8').split('\n').filter(Boolean);
@@ -41,7 +41,7 @@ class PhyloStore {
       return new PhyloStore({ nodes, mediaByTaxon, speciesIds });
     }
 
-    const raw = fs.readFileSync(cladePath, 'utf8');
+    const raw = fs.readFileSync(taxonomyPath, 'utf8');
     const parsed = JSON.parse(raw);
     const nodes = (parsed.nodes || []).map((node) => ({
       id: node.id,

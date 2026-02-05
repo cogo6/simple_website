@@ -6,8 +6,8 @@ This app is an A/B quiz where each question asks:
 
 ## How it works
 
-- Clade/taxonomy data is stored in normalized files (`data/taxonomy_nodes.ndjson`, `data/media_by_taxon.json`, `data/species_ids.json`) generated from `data/clade.json`.
-- The server loads the clade graph and computes relatedness using MRCA/distance.
+- Taxonomy data is stored in normalized files (`data/taxonomy_nodes.ndjson`, `data/media_by_taxon.json`, `data/species_ids.json`) generated from `data/taxonomy.json`.
+- The server loads the taxonomy graph and computes relatedness using MRCA/distance.
 - The browser fetches generated questions from `GET /api/question`.
 - Stats are tracked in localStorage (`streak`, `bestStreak`, `totalAnswered`, `totalCorrect`, `accuracy`).
 
@@ -35,7 +35,7 @@ Validation checks:
 
 ## Scaling plan for a massive species set
 
-1. Replace `data/clade.json` with a generated snapshot from Open Tree of Life / NCBI taxonomy.
+1. Replace `data/taxonomy.json` with a generated snapshot from Open Tree of Life / NCBI taxonomy.
 2. Move clade storage to DB tables (`nodes`, `edges`, `synonyms`, `media`).
 3. Add async ingestion jobs and versioned snapshots.
 4. Keep server-side question generation and cache lineage/MRCA lookups.

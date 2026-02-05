@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputPath = path.join(__dirname, '..', 'data', 'clade.json');
+const inputPath = path.join(__dirname, '..', 'data', 'taxonomy.json');
 const outputNodesPath = path.join(__dirname, '..', 'data', 'taxonomy_nodes.ndjson');
 const outputMediaPath = path.join(__dirname, '..', 'data', 'media_by_taxon.json');
 const outputSpeciesPath = path.join(__dirname, '..', 'data', 'species_ids.json');
