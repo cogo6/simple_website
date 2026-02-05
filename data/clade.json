@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {"id":"life","parentId":null,"rank":"root","scientificName":"Life","commonName":"Life"},
+    {"id":"eukaryota","parentId":"life","rank":"domain","scientificName":"Eukaryota","commonName":"Eukaryotes"},
+    {"id":"animalia","parentId":"eukaryota","rank":"kingdom","scientificName":"Animalia","commonName":"Animals"},
+    {"id":"chordata","parentId":"animalia","rank":"phylum","scientificName":"Chordata","commonName":"Chordates"},
+    {"id":"mammalia","parentId":"chordata","rank":"class","scientificName":"Mammalia","commonName":"Mammals"},
+    {"id":"aves","parentId":"chordata","rank":"class","scientificName":"Aves","commonName":"Birds"},
+    {"id":"reptilia","parentId":"chordata","rank":"class","scientificName":"Reptilia","commonName":"Reptiles"},
+
+    {"id":"primates","parentId":"mammalia","rank":"order","scientificName":"Primates","commonName":"Primates"},
+    {"id":"carnivora","parentId":"mammalia","rank":"order","scientificName":"Carnivora","commonName":"Carnivorans"},
+    {"id":"cetartiodactyla","parentId":"mammalia","rank":"order","scientificName":"Cetartiodactyla","commonName":"Even-toed ungulates & whales"},
+    {"id":"perissodactyla","parentId":"mammalia","rank":"order","scientificName":"Perissodactyla","commonName":"Odd-toed ungulates"},
+
+    {"id":"hominidae","parentId":"primates","rank":"family","scientificName":"Hominidae","commonName":"Great apes"},
+    {"id":"canidae","parentId":"carnivora","rank":"family","scientificName":"Canidae","commonName":"Dogs"},
+    {"id":"felidae","parentId":"carnivora","rank":"family","scientificName":"Felidae","commonName":"Cats"},
+    {"id":"ursidae","parentId":"carnivora","rank":"family","scientificName":"Ursidae","commonName":"Bears"},
+    {"id":"delphinidae","parentId":"cetartiodactyla","rank":"family","scientificName":"Delphinidae","commonName":"Oceanic dolphins"},
+    {"id":"bovidae","parentId":"cetartiodactyla","rank":"family","scientificName":"Bovidae","commonName":"Cattle, goats, antelopes"},
+    {"id":"equidae","parentId":"perissodactyla","rank":"family","scientificName":"Equidae","commonName":"Horses"},
+
+    {"id":"homo_sapiens","parentId":"hominidae","rank":"species","scientificName":"Homo sapiens","commonName":"Human","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/8/88/Young_man.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"pan_troglodytes","parentId":"hominidae","rank":"species","scientificName":"Pan troglodytes","commonName":"Chimpanzee","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/3/37/Chimps_playing.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"gorilla_gorilla","parentId":"hominidae","rank":"species","scientificName":"Gorilla gorilla","commonName":"Western gorilla","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/0/04/Gorilla_gorilla_gorilla8.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"pongo_pygmaeus","parentId":"hominidae","rank":"species","scientificName":"Pongo pygmaeus","commonName":"Bornean orangutan","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/9/9b/Orangutan_Kalimantan.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"canis_lupus","parentId":"canidae","rank":"species","scientificName":"Canis lupus","commonName":"Gray wolf","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/1/16/2010-kabini-grey-wolf.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"canis_lupus_familiaris","parentId":"canidae","rank":"species","scientificName":"Canis lupus familiaris","commonName":"Dog","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/1/18/Dog_Breeds.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"vulpes_vulpes","parentId":"canidae","rank":"species","scientificName":"Vulpes vulpes","commonName":"Red fox","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/1/16/2010-brown-fox.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"lycaon_pictus","parentId":"canidae","rank":"species","scientificName":"Lycaon pictus","commonName":"African wild dog","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/d/d8/Lycaon_pictus_laying.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"panthera_leo","parentId":"felidae","rank":"species","scientificName":"Panthera leo","commonName":"Lion","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"panthera_tigris","parentId":"felidae","rank":"species","scientificName":"Panthera tigris","commonName":"Tiger","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"felis_catus","parentId":"felidae","rank":"species","scientificName":"Felis catus","commonName":"Cat","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"acinonyx_jubatus","parentId":"felidae","rank":"species","scientificName":"Acinonyx jubatus","commonName":"Cheetah","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/9/94/Cheetah4.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"ursus_arctos","parentId":"ursidae","rank":"species","scientificName":"Ursus arctos","commonName":"Brown bear","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/7/79/2010-brown-bear.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"ursus_maritimus","parentId":"ursidae","rank":"species","scientificName":"Ursus maritimus","commonName":"Polar bear","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Polar_Bear_2004-11-15.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"tursiops_truncatus","parentId":"delphinidae","rank":"species","scientificName":"Tursiops truncatus","commonName":"Bottlenose dolphin","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/3/32/Dolphin_bermuda.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"orca_orcinus","parentId":"delphinidae","rank":"species","scientificName":"Orcinus orca","commonName":"Orca","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"bos_taurus","parentId":"bovidae","rank":"species","scientificName":"Bos taurus","commonName":"Cow","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/3/3d/LARGE_elevation.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"capra_hircus","parentId":"bovidae","rank":"species","scientificName":"Capra hircus","commonName":"Goat","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"equus_caballus","parentId":"equidae","rank":"species","scientificName":"Equus caballus","commonName":"Horse","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/e/e3/Horse_and_foal.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"equus_quagga","parentId":"equidae","rank":"species","scientificName":"Equus quagga","commonName":"Plains zebra","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/0/0f/Plains_Zebra_Equus_quagga.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"passeriformes","parentId":"aves","rank":"order","scientificName":"Passeriformes","commonName":"Perching birds"},
+    {"id":"falconiformes","parentId":"aves","rank":"order","scientificName":"Falconiformes","commonName":"Falcons"},
+    {"id":"anseriformes","parentId":"aves","rank":"order","scientificName":"Anseriformes","commonName":"Waterfowl"},
+
+    {"id":"corvidae","parentId":"passeriformes","rank":"family","scientificName":"Corvidae","commonName":"Crows"},
+    {"id":"paridae","parentId":"passeriformes","rank":"family","scientificName":"Paridae","commonName":"Tits and chickadees"},
+    {"id":"falconidae","parentId":"falconiformes","rank":"family","scientificName":"Falconidae","commonName":"Falcons"},
+    {"id":"anatidae","parentId":"anseriformes","rank":"family","scientificName":"Anatidae","commonName":"Ducks and geese"},
+
+    {"id":"corvus_corax","parentId":"corvidae","rank":"species","scientificName":"Corvus corax","commonName":"Common raven","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/7/72/Common_raven.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"pica_pica","parentId":"corvidae","rank":"species","scientificName":"Pica pica","commonName":"Eurasian magpie","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/8/80/Pica_pica_-Madrid%2C_Spain-8.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"parus_major","parentId":"paridae","rank":"species","scientificName":"Parus major","commonName":"Great tit","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Parus_major_male.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"poecile_atricapillus","parentId":"paridae","rank":"species","scientificName":"Poecile atricapillus","commonName":"Black-capped chickadee","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/8/8f/Poecile_atricapillus_CT.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"falco_peregrinus","parentId":"falconidae","rank":"species","scientificName":"Falco peregrinus","commonName":"Peregrine falcon","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/e/e4/Falco_peregrinus_good_-_Christopher_Watson.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"falco_tinnunculus","parentId":"falconidae","rank":"species","scientificName":"Falco tinnunculus","commonName":"Common kestrel","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/6/63/Common_Kestrel.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"anas_platyrhynchos","parentId":"anatidae","rank":"species","scientificName":"Anas platyrhynchos","commonName":"Mallard","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/5/56/Anas_platyrhynchos_male_female_quadrat.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"cygnus_olor","parentId":"anatidae","rank":"species","scientificName":"Cygnus olor","commonName":"Mute swan","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/f/f2/Cygnus_olor_2_%28Marek_Szczepanek%29.jpg","imageCredit":"Wikimedia Commons"},
+
+    {"id":"squamata","parentId":"reptilia","rank":"order","scientificName":"Squamata","commonName":"Lizards and snakes"},
+    {"id":"testudines","parentId":"reptilia","rank":"order","scientificName":"Testudines","commonName":"Turtles"},
+    {"id":"pythonidae","parentId":"squamata","rank":"family","scientificName":"Pythonidae","commonName":"Pythons"},
+    {"id":"iguanidae","parentId":"squamata","rank":"family","scientificName":"Iguanidae","commonName":"Iguanas"},
+    {"id":"cheloniidae","parentId":"testudines","rank":"family","scientificName":"Cheloniidae","commonName":"Sea turtles"},
+
+    {"id":"python_regius","parentId":"pythonidae","rank":"species","scientificName":"Python regius","commonName":"Ball python","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/9/9e/Python_regius.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"python_bivittatus","parentId":"pythonidae","rank":"species","scientificName":"Python bivittatus","commonName":"Burmese python","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/3/34/Burmese_python.JPG","imageCredit":"Wikimedia Commons"},
+    {"id":"iguana_iguana","parentId":"iguanidae","rank":"species","scientificName":"Iguana iguana","commonName":"Green iguana","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/2/26/Iguana_iguana_Portoviejo_01.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"cyclura_rileyi","parentId":"iguanidae","rank":"species","scientificName":"Cyclura rileyi","commonName":"San Salvador rock iguana","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/6/67/Cyclura_rileyi.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"chelonia_mydas","parentId":"cheloniidae","rank":"species","scientificName":"Chelonia mydas","commonName":"Green sea turtle","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/e/ee/Chelonia_mydas_is_going_for_the_air_edit.jpg","imageCredit":"Wikimedia Commons"},
+    {"id":"eretmochelys_imbricata","parentId":"cheloniidae","rank":"species","scientificName":"Eretmochelys imbricata","commonName":"Hawksbill sea turtle","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Hawksbill_turtle.jpg","imageCredit":"Wikimedia Commons"}
+  ]
+}
