@@ -4,37 +4,58 @@ const path = require('path');
 const SPECIES_RANK = 'species';
 
 class PhyloStore {
-  constructor(cladeData) {
+  constructor({ nodes = [], mediaByTaxon = {}, speciesIds = null } = {}) {
     this.nodes = new Map();
     this.children = new Map();
+    this.mediaByTaxon = mediaByTaxon;
 
-    for (const node of cladeData.nodes || []) {
+    for (const node of nodes) {
       this.nodes.set(node.id, node);
-      if (!this.children.has(node.id)) {
-        this.children.set(node.id, []);
-      }
+      if (!this.children.has(node.id)) this.children.set(node.id, []);
     }
 
     for (const node of this.nodes.values()) {
-      if (node.parentId) {
-        if (!this.children.has(node.parentId)) {
-          this.children.set(node.parentId, []);
-        }
-        this.children.get(node.parentId).push(node.id);
-      }
+      if (!node.parentId) continue;
+      if (!this.children.has(node.parentId)) this.children.set(node.parentId, []);
+      this.children.get(node.parentId).push(node.id);
     }
 
-    this.speciesIds = [...this.nodes.values()]
-      .filter((node) => node.rank === SPECIES_RANK)
-      .map((node) => node.id);
+    this.speciesIds = Array.isArray(speciesIds) && speciesIds.length
+      ? speciesIds
+      : [...this.nodes.values()].filter((n) => n.rank === SPECIES_RANK).map((n) => n.id);
 
     this.lastQuestionKey = null;
   }
 
-  static fromFile(filePath) {
-    const raw = fs.readFileSync(path.resolve(filePath), 'utf8');
+  static fromDataDir(dataDir) {
+    const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
+    const mediaPath = path.join(dataDir, 'media_by_taxon.json');
+    const speciesPath = path.join(dataDir, 'species_ids.json');
+    const taxonomyPath = path.join(dataDir, 'taxonomy.json');
+
+    if (fs.existsSync(ndjsonPath) && fs.existsSync(mediaPath) && fs.existsSync(speciesPath)) {
+      const lines = fs.readFileSync(ndjsonPath, 'utf8').split('\n').filter(Boolean);
+      const nodes = lines.map((line) => JSON.parse(line));
+      const mediaByTaxon = JSON.parse(fs.readFileSync(mediaPath, 'utf8'));
+      const speciesIds = JSON.parse(fs.readFileSync(speciesPath, 'utf8'));
+      return new PhyloStore({ nodes, mediaByTaxon, speciesIds });
+    }
+
+    const raw = fs.readFileSync(taxonomyPath, 'utf8');
     const parsed = JSON.parse(raw);
-    return new PhyloStore(parsed);
+    const nodes = (parsed.nodes || []).map((node) => ({
+      id: node.id,
+      parentId: node.parentId || null,
+      rank: node.rank,
+      scientificName: node.scientificName || '',
+      commonName: node.commonName || '',
+    }));
+    const mediaByTaxon = Object.fromEntries((parsed.nodes || []).map((node) => [
+      node.id,
+      { imageUrl: node.imageUrl || '', imageCredit: node.imageCredit || '' },
+    ]));
+
+    return new PhyloStore({ nodes, mediaByTaxon });
   }
 
   getNode(id) {
@@ -43,19 +64,11 @@ class PhyloStore {
 
   listSpecies({ search = '', limit = 25 } = {}) {
     const term = search.trim().toLowerCase();
-    const species = this.speciesIds
+    return this.speciesIds
       .map((id) => this.getNode(id))
       .filter(Boolean)
-      .filter((node) => {
-        if (!term) return true;
-        return (
-          node.scientificName?.toLowerCase().includes(term) ||
-          node.commonName?.toLowerCase().includes(term)
-        );
-      })
+      .filter((node) => !term || node.scientificName.toLowerCase().includes(term) || node.commonName.toLowerCase().includes(term))
       .slice(0, limit);
-
-    return species;
   }
 
   getAncestors(nodeId) {
@@ -68,27 +81,26 @@ class PhyloStore {
     return ancestors;
   }
 
-  mrca(nodeAId, nodeBId) {
-    const ancestorsA = new Set(this.getAncestors(nodeAId));
-    const ancestorsB = this.getAncestors(nodeBId);
-    return ancestorsB.find((id) => ancestorsA.has(id)) || null;
+  mrca(a, b) {
+    const setA = new Set(this.getAncestors(a));
+    return this.getAncestors(b).find((id) => setA.has(id)) || null;
   }
 
-  distance(nodeAId, nodeBId) {
-    const mrcaId = this.mrca(nodeAId, nodeBId);
-    if (!mrcaId) return Number.POSITIVE_INFINITY;
+  distance(a, b) {
+    const m = this.mrca(a, b);
+    if (!m) return Number.POSITIVE_INFINITY;
 
-    const depthTo = (startId, endId) => {
+    const depthTo = (from, to) => {
       let depth = 0;
-      let cursor = this.getNode(startId);
-      while (cursor && cursor.id !== endId) {
+      let cursor = this.getNode(from);
+      while (cursor && cursor.id !== to) {
         depth += 1;
         cursor = cursor.parentId ? this.getNode(cursor.parentId) : null;
       }
       return cursor ? depth : Number.POSITIVE_INFINITY;
     };
 
-    return depthTo(nodeAId, mrcaId) + depthTo(nodeBId, mrcaId);
+    return depthTo(a, m) + depthTo(b, m);
   }
 
   pickDifficultyBucket(diff) {
@@ -102,22 +114,16 @@ class PhyloStore {
     const attempts = Math.max(500, this.speciesIds.length * 4);
 
     for (let i = 0; i < attempts; i += 1) {
-      const targetIdx = Math.floor(Math.random() * this.speciesIds.length);
-      const choiceAIdx = Math.floor(Math.random() * this.speciesIds.length);
-      const choiceBIdx = Math.floor(Math.random() * this.speciesIds.length);
-
-      const targetId = this.speciesIds[targetIdx];
-      const choiceAId = this.speciesIds[choiceAIdx];
-      const choiceBId = this.speciesIds[choiceBIdx];
+      const targetId = this.speciesIds[Math.floor(Math.random() * this.speciesIds.length)];
+      const choiceAId = this.speciesIds[Math.floor(Math.random() * this.speciesIds.length)];
+      const choiceBId = this.speciesIds[Math.floor(Math.random() * this.speciesIds.length)];
 
       if (!targetId || !choiceAId || !choiceBId) continue;
       if (targetId === choiceAId || targetId === choiceBId || choiceAId === choiceBId) continue;
 
       const distanceA = this.distance(targetId, choiceAId);
       const distanceB = this.distance(targetId, choiceBId);
-
-      if (!Number.isFinite(distanceA) || !Number.isFinite(distanceB)) continue;
-      if (distanceA === distanceB) continue;
+      if (!Number.isFinite(distanceA) || !Number.isFinite(distanceB) || distanceA === distanceB) continue;
 
       const gap = Math.abs(distanceA - distanceB);
       if (!acceptsGap(gap)) continue;
@@ -132,11 +138,7 @@ class PhyloStore {
         choiceA: this.getNode(choiceAId),
         choiceB: this.getNode(choiceBId),
         correct,
-        metrics: {
-          distanceA,
-          distanceB,
-          gap,
-        },
+        metrics: { distanceA, distanceB, gap },
         key,
       };
     }
@@ -145,13 +147,14 @@ class PhyloStore {
   }
 
   formatTaxon(node) {
+    const media = this.mediaByTaxon[node.id] || { imageUrl: '', imageCredit: '' };
     return {
       id: node.id,
       label: node.commonName || node.scientificName,
       scientific_name: node.scientificName,
       common_name: node.commonName || '',
-      image_url: node.imageUrl || '',
-      image_credit: node.imageCredit || '',
+      image_url: media.imageUrl || '',
+      image_credit: media.imageCredit || '',
       rank: node.rank,
     };
   }
@@ -164,14 +167,12 @@ class PhyloStore {
     };
 
     let question = null;
-    const modes = difficultyFallbacks[difficulty] || difficultyFallbacks.medium;
-    for (const mode of modes) {
+    for (const mode of (difficultyFallbacks[difficulty] || difficultyFallbacks.medium)) {
       question = this.buildQuestion({ difficulty: mode, avoidKey: this.lastQuestionKey });
       if (question) break;
     }
 
     if (!question) return null;
-
     this.lastQuestionKey = question.key;
 
     return {
@@ -186,6 +187,4 @@ class PhyloStore {
   }
 }
 
-module.exports = {
-  PhyloStore,
-};
+module.exports = { PhyloStore };
