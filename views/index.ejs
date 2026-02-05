@@ -7,7 +7,65 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>Welcome to My Node.js Website</h1>
-    <p>This is the main page served by a Node.js Express server using EJS.</p>
+    <main class="app">
+        <header class="header">
+            <div>
+                <p class="eyebrow">Clade Quiz</p>
+                <h1>Which species is more closely related?</h1>
+                <p class="subtitle">Choose whether A or B is phylogenetically closer to the target species.</p>
+            </div>
+            <div class="stats">
+                <div><p class="stat-label">Streak</p><p class="stat-value" data-streak>0</p></div>
+                <div><p class="stat-label">Best</p><p class="stat-value" data-best-streak>0</p></div>
+                <div><p class="stat-label">Answered</p><p class="stat-value" data-total-answered>0</p></div>
+                <div><p class="stat-label">Correct</p><p class="stat-value" data-total-correct>0</p></div>
+                <div><p class="stat-label">Accuracy</p><p class="stat-value" data-accuracy>0%</p></div>
+            </div>
+        </header>
+
+        <section class="controls card">
+            <label for="difficulty">Difficulty</label>
+            <select id="difficulty" data-difficulty>
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </section>
+
+        <section class="card target-card">
+            <p class="card-title">Target Species</p>
+            <img class="card-image" data-target-image loading="lazy" decoding="async" alt="Target image" />
+            <h2 class="card-label" data-target-label>Loading...</h2>
+            <p class="meta" data-target-scientific></p>
+            <p class="credit" data-target-credit></p>
+        </section>
+
+        <section class="choices">
+            <button class="card choice" data-choice="A" aria-label="Choice A">
+                <span class="choice-badge">A</span>
+                <img class="card-image" data-choice-image="A" loading="lazy" decoding="async" alt="Choice A image" />
+                <h3 class="card-label" data-choice-label="A">Choice A</h3>
+                <p class="meta" data-choice-scientific="A"></p>
+                <p class="credit" data-choice-credit="A"></p>
+            </button>
+            <button class="card choice" data-choice="B" aria-label="Choice B">
+                <span class="choice-badge">B</span>
+                <img class="card-image" data-choice-image="B" loading="lazy" decoding="async" alt="Choice B image" />
+                <h3 class="card-label" data-choice-label="B">Choice B</h3>
+                <p class="meta" data-choice-scientific="B"></p>
+                <p class="credit" data-choice-credit="B"></p>
+            </button>
+        </section>
+
+        <section class="footer">
+            <p class="feedback" data-feedback>Make your choice.</p>
+            <div class="footer-actions">
+                <button class="next" data-next disabled>Next</button>
+                <span class="hint">Tip: press A or B on keyboard.</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="/app.js"></script>
 </body>
 </html>
