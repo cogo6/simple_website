@@ -109,6 +109,20 @@ body {
 }
 
 .card-label { font-size: 1.2rem; font-weight: 700; }
+
+.card-image[data-status="loading"] {
+    filter: grayscale(20%);
+    opacity: 0.72;
+}
+
+.card-image[data-status="error"] {
+    border-style: dashed;
+    border-color: #f59e0b;
+}
+
+.card-image[data-status="ready"] {
+    opacity: 1;
+}
 .meta { color: var(--muted); font-style: italic; min-height: 1.1rem; }
 .credit { color: #7f8ea9; font-size: 0.8rem; min-height: 1rem; }
 

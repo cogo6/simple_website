@@ -40,7 +40,7 @@ const placeholderSvg =
   encodeURIComponent(
     '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200">' +
       '<rect width="100%" height="100%" fill="#e5e7eb" />' +
-      '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#9ca3af" font-size="16" font-family="Arial, sans-serif">No Image</text>' +
+      '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#9ca3af" font-size="16" font-family="Arial, sans-serif">Image unavailable</text>' +
     '</svg>'
   );
 
@@ -70,31 +70,52 @@ function updateStatsUI() {
   elements.accuracy.textContent = `${accuracy}%`;
 }
 
-function setImage(imgElement, url, label) {
+function setImage(imgElement, url, label, fallbackUrl = "") {
   if (!imgElement) return;
   const safeUrl = typeof url === 'string' ? url.trim() : '';
   const safeLabel = label || 'species';
 
+  imgElement.dataset.status = 'loading';
   imgElement.onerror = null;
+  imgElement.onload = null;
+  imgElement.decoding = 'async';
+  imgElement.loading = 'lazy';
+
   if (!safeUrl) {
+    imgElement.dataset.status = 'error';
     imgElement.src = placeholderSvg;
-    imgElement.alt = `${safeLabel} placeholder`;
+    imgElement.alt = `${safeLabel} image unavailable`;
     return;
   }
 
+  imgElement.onload = () => {
+    imgElement.dataset.status = 'ready';
+  };
+
+  const fallback = typeof fallbackUrl === 'string' ? fallbackUrl.trim() : '';
+  let usedFallback = false;
+
+  imgElement.onerror = () => {
+    if (fallback && !usedFallback) {
+      usedFallback = true;
+      imgElement.dataset.status = 'loading';
+      imgElement.src = fallback;
+      return;
+    }
+    imgElement.dataset.status = 'error';
+    imgElement.src = placeholderSvg;
+    imgElement.alt = `${safeLabel} image unavailable`;
+  };
+
   imgElement.src = safeUrl;
   imgElement.alt = safeLabel;
-  imgElement.onerror = () => {
-    imgElement.src = placeholderSvg;
-    imgElement.alt = `${safeLabel} placeholder`;
-  };
 }
 
 function renderTaxon({ item, imageEl, labelEl, scientificEl, creditEl }) {
   labelEl.textContent = item.label;
   scientificEl.textContent = item.scientific_name || '';
-  creditEl.textContent = item.image_credit ? `Image: ${item.image_credit}` : '';
-  setImage(imageEl, item.image_url, item.label);
+  creditEl.textContent = item.image_credit ? `Image: ${item.image_credit}` : 'Image: unavailable';
+  setImage(imageEl, item.image_url, item.label, item.image_source_url || "");
 }
 
 function updateFeedback(message, isCorrect) {

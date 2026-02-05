@@ -153,7 +153,8 @@ class PhyloStore {
       label: node.commonName || node.scientificName,
       scientific_name: node.scientificName,
       common_name: node.commonName || '',
-      image_url: media.imageUrl || '',
+      image_url: media.imageUrl ? `/api/image/${encodeURIComponent(node.id)}` : '',
+      image_source_url: media.imageUrl || '',
       image_credit: media.imageCredit || '',
       rank: node.rank,
     };
