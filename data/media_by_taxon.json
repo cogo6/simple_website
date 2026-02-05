@@ -1,0 +1,4258 @@
+{
+  "life": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "eukaryota": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "animalia": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "chordata": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "mammalia": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "aves": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "reptilia": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "primates": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "carnivora": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "cetartiodactyla": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "perissodactyla": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "hominidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "canidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "felidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "ursidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "delphinidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "bovidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "equidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "homo_sapiens": {
+    "imageUrl": "https://loremflickr.com/640/400/human/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "pan_troglodytes": {
+    "imageUrl": "https://loremflickr.com/640/400/chimpanzee/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "gorilla_gorilla": {
+    "imageUrl": "https://loremflickr.com/640/400/western,gorilla/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "pongo_pygmaeus": {
+    "imageUrl": "https://loremflickr.com/640/400/bornean,orangutan/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "canis_lupus": {
+    "imageUrl": "https://loremflickr.com/640/400/gray,wolf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "canis_lupus_familiaris": {
+    "imageUrl": "https://loremflickr.com/640/400/dog/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "vulpes_vulpes": {
+    "imageUrl": "https://loremflickr.com/640/400/red,fox/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "lycaon_pictus": {
+    "imageUrl": "https://loremflickr.com/640/400/african,wild/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "panthera_leo": {
+    "imageUrl": "https://loremflickr.com/640/400/lion/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "panthera_tigris": {
+    "imageUrl": "https://loremflickr.com/640/400/tiger/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "felis_catus": {
+    "imageUrl": "https://loremflickr.com/640/400/cat/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "acinonyx_jubatus": {
+    "imageUrl": "https://loremflickr.com/640/400/cheetah/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "ursus_arctos": {
+    "imageUrl": "https://loremflickr.com/640/400/brown,bear/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "ursus_maritimus": {
+    "imageUrl": "https://loremflickr.com/640/400/polar,bear/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "tursiops_truncatus": {
+    "imageUrl": "https://loremflickr.com/640/400/bottlenose,dolphin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "orca_orcinus": {
+    "imageUrl": "https://loremflickr.com/640/400/orca/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "bos_taurus": {
+    "imageUrl": "https://loremflickr.com/640/400/cow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "capra_hircus": {
+    "imageUrl": "https://loremflickr.com/640/400/goat/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "equus_caballus": {
+    "imageUrl": "https://loremflickr.com/640/400/horse/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "equus_quagga": {
+    "imageUrl": "https://loremflickr.com/640/400/plains,zebra/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "passeriformes": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "falconiformes": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "anseriformes": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "corvidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "paridae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "falconidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "anatidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "corvus_corax": {
+    "imageUrl": "https://loremflickr.com/640/400/common,raven/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "pica_pica": {
+    "imageUrl": "https://loremflickr.com/640/400/eurasian,magpie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "parus_major": {
+    "imageUrl": "https://loremflickr.com/640/400/great,tit/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "poecile_atricapillus": {
+    "imageUrl": "https://loremflickr.com/640/400/black,capped/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "falco_peregrinus": {
+    "imageUrl": "https://loremflickr.com/640/400/peregrine,falcon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "falco_tinnunculus": {
+    "imageUrl": "https://loremflickr.com/640/400/common,kestrel/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "anas_platyrhynchos": {
+    "imageUrl": "https://loremflickr.com/640/400/mallard/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "cygnus_olor": {
+    "imageUrl": "https://loremflickr.com/640/400/mute,swan/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "squamata": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "testudines": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "pythonidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "iguanidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "cheloniidae": {
+    "imageUrl": "",
+    "imageCredit": ""
+  },
+  "python_regius": {
+    "imageUrl": "https://loremflickr.com/640/400/ball,python/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "python_bivittatus": {
+    "imageUrl": "https://loremflickr.com/640/400/burmese,python/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "iguana_iguana": {
+    "imageUrl": "https://loremflickr.com/640/400/green,iguana/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "cyclura_rileyi": {
+    "imageUrl": "https://loremflickr.com/640/400/san,salvador/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "chelonia_mydas": {
+    "imageUrl": "https://loremflickr.com/640/400/green,sea/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "eretmochelys_imbricata": {
+    "imageUrl": "https://loremflickr.com/640/400/hawksbill,sea/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0001": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0002": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0003": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0004": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0005": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0006": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0007": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0008": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0009": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0010": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0011": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0012": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0013": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0014": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0015": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0016": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0017": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0018": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0019": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0020": {
+    "imageUrl": "https://loremflickr.com/640/400/river,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0021": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0022": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0023": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0024": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0025": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0026": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0027": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0028": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0029": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0030": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0031": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0032": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0033": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0034": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0035": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0036": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0037": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0038": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0039": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0040": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0041": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0042": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0043": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0044": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0045": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0046": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0047": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0048": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0049": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0050": {
+    "imageUrl": "https://loremflickr.com/640/400/river,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0051": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0052": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0053": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0054": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0055": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0056": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0057": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0058": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0059": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0060": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0061": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0062": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0063": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0064": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0065": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0066": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0067": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0068": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0069": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0070": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0071": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0072": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0073": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0074": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0075": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0076": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0077": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0078": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0079": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0080": {
+    "imageUrl": "https://loremflickr.com/640/400/river,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0081": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0082": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0083": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0084": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0085": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0086": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0087": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0088": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0089": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0090": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0091": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0092": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0093": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0094": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0095": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0096": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0097": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0098": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0099": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0100": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0101": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0102": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0103": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0104": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0105": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0106": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0107": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0108": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0109": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0110": {
+    "imageUrl": "https://loremflickr.com/640/400/river,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0111": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0112": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0113": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0114": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0115": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0116": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0117": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0118": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0119": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0120": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0121": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0122": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0123": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0124": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0125": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0126": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0127": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0128": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0129": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0130": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0131": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0132": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0133": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0134": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0135": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0136": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0137": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0138": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0139": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0140": {
+    "imageUrl": "https://loremflickr.com/640/400/river,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0141": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0142": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0143": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0144": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0145": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0146": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0147": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0148": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,marsh/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0149": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0150": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0151": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0152": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0153": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0154": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0155": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0156": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0157": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0158": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0159": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0160": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0161": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0162": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0163": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0164": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0165": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0166": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0167": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0168": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0169": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0170": {
+    "imageUrl": "https://loremflickr.com/640/400/river,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0171": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0172": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0173": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0174": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0175": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0176": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0177": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0178": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,rock/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0179": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0180": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0181": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0182": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0183": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0184": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0185": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0186": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0187": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0188": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0189": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0190": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0191": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0192": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0193": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0194": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0195": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0196": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0197": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0198": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0199": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0200": {
+    "imageUrl": "https://loremflickr.com/640/400/river,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0201": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0202": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0203": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0204": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0205": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0206": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0207": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0208": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,field/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0209": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0210": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0211": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0212": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0213": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0214": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0215": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0216": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0217": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0218": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0219": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0220": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0221": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0222": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0223": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0224": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0225": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0226": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0227": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0228": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0229": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0230": {
+    "imageUrl": "https://loremflickr.com/640/400/river,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0231": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0232": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0233": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0234": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0235": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0236": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0237": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0238": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,woodland/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0239": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0240": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0241": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0242": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0243": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0244": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0245": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0246": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0247": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0248": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0249": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0250": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0251": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0252": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0253": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0254": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0255": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0256": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0257": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0258": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0259": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0260": {
+    "imageUrl": "https://loremflickr.com/640/400/river,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0261": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0262": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0263": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0264": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0265": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0266": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0267": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0268": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,river/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0269": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0270": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0271": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0272": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0273": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0274": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0275": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0276": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0277": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0278": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0279": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0280": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0281": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0282": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0283": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0284": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0285": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0286": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0287": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0288": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0289": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0290": {
+    "imageUrl": "https://loremflickr.com/640/400/river,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0291": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0292": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0293": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0294": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0295": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0296": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0297": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0298": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,cloud/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0299": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0300": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0301": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0302": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0303": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0304": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0305": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0306": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0307": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0308": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0309": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0310": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0311": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0312": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0313": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0314": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0315": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0316": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0317": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0318": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0319": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0320": {
+    "imageUrl": "https://loremflickr.com/640/400/river,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0321": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0322": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0323": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0324": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0325": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0326": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0327": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0328": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,dune/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0329": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0330": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0331": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0332": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0333": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0334": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0335": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0336": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0337": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0338": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0339": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0340": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0341": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0342": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0343": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0344": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0345": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0346": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0347": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0348": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0349": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0350": {
+    "imageUrl": "https://loremflickr.com/640/400/river,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0351": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0352": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0353": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0354": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0355": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0356": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0357": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0358": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,oak/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0359": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0360": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0361": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0362": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0363": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0364": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0365": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0366": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0367": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0368": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0369": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0370": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0371": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0372": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0373": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0374": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0375": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0376": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0377": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0378": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0379": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0380": {
+    "imageUrl": "https://loremflickr.com/640/400/river,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0381": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0382": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0383": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0384": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0385": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0386": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0387": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0388": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,pine/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0389": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0390": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0391": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0392": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0393": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0394": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0395": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0396": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0397": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0398": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0399": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0400": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0401": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0402": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0403": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0404": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0405": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0406": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0407": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0408": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0409": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0410": {
+    "imageUrl": "https://loremflickr.com/640/400/river,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0411": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0412": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0413": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0414": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0415": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0416": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0417": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0418": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,meadow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0419": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0420": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0421": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0422": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0423": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0424": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0425": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0426": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0427": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0428": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0429": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0430": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0431": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0432": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0433": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0434": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0435": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0436": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0437": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0438": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0439": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0440": {
+    "imageUrl": "https://loremflickr.com/640/400/river,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0441": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0442": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0443": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0444": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0445": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0446": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0447": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0448": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,rain/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0449": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0450": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0451": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0452": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0453": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0454": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0455": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0456": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0457": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0458": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0459": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0460": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0461": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0462": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0463": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0464": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0465": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0466": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0467": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0468": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0469": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0470": {
+    "imageUrl": "https://loremflickr.com/640/400/river,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0471": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0472": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0473": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0474": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0475": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0476": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0477": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0478": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,canyon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0479": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0480": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0481": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0482": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0483": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0484": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0485": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0486": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0487": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0488": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0489": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0490": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0491": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0492": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0493": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0494": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0495": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0496": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0497": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0498": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0499": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0500": {
+    "imageUrl": "https://loremflickr.com/640/400/river,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0501": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0502": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0503": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0504": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0505": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0506": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0507": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0508": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,willow/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0509": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0510": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0511": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0512": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0513": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0514": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0515": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0516": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0517": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0518": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0519": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0520": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0521": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0522": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0523": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0524": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0525": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0526": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0527": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0528": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0529": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0530": {
+    "imageUrl": "https://loremflickr.com/640/400/river,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0531": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0532": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0533": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0534": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0535": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0536": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0537": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0538": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,glade/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0539": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0540": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0541": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0542": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0543": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0544": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0545": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0546": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0547": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0548": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0549": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0550": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0551": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0552": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0553": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0554": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0555": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0556": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0557": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0558": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0559": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0560": {
+    "imageUrl": "https://loremflickr.com/640/400/river,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0561": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0562": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0563": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0564": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0565": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0566": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0567": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0568": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,prairie/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0569": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0570": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0571": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0572": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0573": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0574": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0575": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0576": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0577": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0578": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0579": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0580": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0581": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0582": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0583": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0584": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0585": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0586": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0587": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0588": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0589": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0590": {
+    "imageUrl": "https://loremflickr.com/640/400/river,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0591": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0592": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0593": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0594": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0595": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0596": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0597": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0598": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,moor/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0599": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0600": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0601": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0602": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0603": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0604": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0605": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0606": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0607": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0608": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0609": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0610": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0611": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0612": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0613": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0614": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0615": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0616": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0617": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0618": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0619": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0620": {
+    "imageUrl": "https://loremflickr.com/640/400/river,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0621": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0622": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0623": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0624": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0625": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0626": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0627": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0628": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,ridge/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0629": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0630": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0631": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0632": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0633": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0634": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0635": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0636": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0637": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0638": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0639": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0640": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0641": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0642": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0643": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0644": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0645": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0646": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0647": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0648": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0649": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0650": {
+    "imageUrl": "https://loremflickr.com/640/400/river,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0651": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0652": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0653": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0654": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0655": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0656": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0657": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0658": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,delta/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0659": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0660": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0661": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0662": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0663": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0664": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0665": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0666": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0667": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0668": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0669": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0670": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0671": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0672": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0673": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0674": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0675": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0676": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0677": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0678": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0679": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0680": {
+    "imageUrl": "https://loremflickr.com/640/400/river,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0681": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0682": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0683": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0684": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0685": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0686": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0687": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0688": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,basin/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0689": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0690": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0691": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0692": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0693": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0694": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0695": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0696": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0697": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0698": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0699": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0700": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0701": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0702": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0703": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0704": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0705": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0706": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0707": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0708": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0709": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0710": {
+    "imageUrl": "https://loremflickr.com/640/400/river,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0711": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0712": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0713": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0714": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0715": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0716": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0717": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0718": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,thicket/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0719": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0720": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0721": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0722": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0723": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0724": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0725": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0726": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0727": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0728": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0729": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0730": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0731": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0732": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0733": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0734": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0735": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0736": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0737": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0738": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0739": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0740": {
+    "imageUrl": "https://loremflickr.com/640/400/river,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0741": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0742": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0743": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0744": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0745": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0746": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0747": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0748": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,stone/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0749": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0750": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0751": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0752": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0753": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0754": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0755": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0756": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0757": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0758": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0759": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0760": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0761": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0762": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0763": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0764": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0765": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0766": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0767": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0768": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0769": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0770": {
+    "imageUrl": "https://loremflickr.com/640/400/river,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0771": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0772": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0773": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0774": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0775": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0776": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0777": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0778": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,lagoon/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0779": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0780": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0781": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0782": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0783": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0784": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0785": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0786": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0787": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0788": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0789": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0790": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0791": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0792": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0793": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0794": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0795": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0796": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0797": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0798": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0799": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0800": {
+    "imageUrl": "https://loremflickr.com/640/400/river,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0801": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0802": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0803": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0804": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0805": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0806": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0807": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0808": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,valley/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0809": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0810": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0811": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0812": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0813": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0814": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0815": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0816": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0817": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0818": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0819": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0820": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0821": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0822": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0823": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0824": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0825": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0826": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0827": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0828": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0829": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0830": {
+    "imageUrl": "https://loremflickr.com/640/400/river,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0831": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0832": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0833": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0834": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0835": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0836": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0837": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0838": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,canopy/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0839": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0840": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0841": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0842": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0843": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0844": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0845": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0846": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0847": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0848": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0849": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0850": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0851": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0852": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0853": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0854": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0855": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0856": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0857": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0858": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0859": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0860": {
+    "imageUrl": "https://loremflickr.com/640/400/river,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0861": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0862": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0863": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0864": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0865": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0866": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0867": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0868": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,stream/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0869": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0870": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0871": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0872": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0873": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0874": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0875": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0876": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0877": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0878": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0879": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0880": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0881": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0882": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0883": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0884": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0885": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0886": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0887": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0888": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0889": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0890": {
+    "imageUrl": "https://loremflickr.com/640/400/river,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0891": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0892": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0893": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0894": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0895": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0896": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0897": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0898": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,cliff/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0899": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0900": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0901": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0902": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0903": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0904": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0905": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0906": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0907": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0908": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0909": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0910": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0911": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0912": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0913": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0914": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0915": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0916": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0917": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0918": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0919": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0920": {
+    "imageUrl": "https://loremflickr.com/640/400/river,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0921": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0922": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0923": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0924": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0925": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0926": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0927": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0928": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,treehopper/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0929": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0930": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0931": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0932": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0933": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0934": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0935": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0936": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0937": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0938": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0939": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0940": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0941": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0942": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0943": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0944": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0945": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0946": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0947": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0948": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0949": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0950": {
+    "imageUrl": "https://loremflickr.com/640/400/river,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0951": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0952": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0953": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0954": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0955": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0956": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0957": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0958": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,leaf/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0959": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0960": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0961": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0962": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0963": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0964": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0965": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0966": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0967": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0968": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0969": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0970": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0971": {
+    "imageUrl": "https://loremflickr.com/640/400/speckled,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0972": {
+    "imageUrl": "https://loremflickr.com/640/400/striped,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0973": {
+    "imageUrl": "https://loremflickr.com/640/400/spotted,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0974": {
+    "imageUrl": "https://loremflickr.com/640/400/velvet,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0975": {
+    "imageUrl": "https://loremflickr.com/640/400/swift,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0976": {
+    "imageUrl": "https://loremflickr.com/640/400/giant,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0977": {
+    "imageUrl": "https://loremflickr.com/640/400/dwarf,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0978": {
+    "imageUrl": "https://loremflickr.com/640/400/mountain,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0979": {
+    "imageUrl": "https://loremflickr.com/640/400/forest,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0980": {
+    "imageUrl": "https://loremflickr.com/640/400/river,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0981": {
+    "imageUrl": "https://loremflickr.com/640/400/coastal,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0982": {
+    "imageUrl": "https://loremflickr.com/640/400/desert,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0983": {
+    "imageUrl": "https://loremflickr.com/640/400/arctic,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0984": {
+    "imageUrl": "https://loremflickr.com/640/400/tropical,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0985": {
+    "imageUrl": "https://loremflickr.com/640/400/savanna,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0986": {
+    "imageUrl": "https://loremflickr.com/640/400/boreal,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0987": {
+    "imageUrl": "https://loremflickr.com/640/400/mottled,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0988": {
+    "imageUrl": "https://loremflickr.com/640/400/crested,ground/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0989": {
+    "imageUrl": "https://loremflickr.com/640/400/long,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0990": {
+    "imageUrl": "https://loremflickr.com/640/400/short,tailed/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0991": {
+    "imageUrl": "https://loremflickr.com/640/400/azure,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0992": {
+    "imageUrl": "https://loremflickr.com/640/400/golden,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0993": {
+    "imageUrl": "https://loremflickr.com/640/400/crimson,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0994": {
+    "imageUrl": "https://loremflickr.com/640/400/silver,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0995": {
+    "imageUrl": "https://loremflickr.com/640/400/emerald,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0996": {
+    "imageUrl": "https://loremflickr.com/640/400/dusky,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0997": {
+    "imageUrl": "https://loremflickr.com/640/400/scarlet,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0998": {
+    "imageUrl": "https://loremflickr.com/640/400/ivory,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_0999": {
+    "imageUrl": "https://loremflickr.com/640/400/amber,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  },
+  "synthetic_species_1000": {
+    "imageUrl": "https://loremflickr.com/640/400/cobalt,reef/all",
+    "imageCredit": "loremflickr (animal photo search)"
+  }
+}
