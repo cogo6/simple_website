@@ -1,0 +1,10 @@
+{
+  "totalNodes": 1064,
+  "totalSpecies": 1034,
+  "imageCoverage": 100,
+  "kingdomCounts": {
+    "animalia": 34,
+    "synthetic": 1000
+  },
+  "generatedAt": "2026-02-05T14:51:13.558Z"
+}
