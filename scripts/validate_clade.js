@@ -5,7 +5,7 @@ const dataDir = path.join(__dirname, '..', 'data');
 const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
 const mediaPath = path.join(dataDir, 'media_by_taxon.json');
 const speciesPath = path.join(dataDir, 'species_ids.json');
-const taxonomyPath = path.join(dataDir, 'taxonomy.json');
+const taxonomyPath = path.join(dataDir, 'species_taxonomy.json');
 
 let nodes = [];
 let mediaByTaxon = {};
