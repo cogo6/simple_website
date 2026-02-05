@@ -46,8 +46,8 @@ function dfs(nodeId) {
 for (const nodeId of nodeMap.keys()) dfs(nodeId);
 
 const speciesCount = [...nodeMap.values()].filter((n) => n.rank === 'species').length;
-if (speciesCount < 10) {
-  errors.push(`Expected at least 10 species, found ${speciesCount}`);
+if (speciesCount < 30) {
+  errors.push(`Expected at least 30 species, found ${speciesCount}`);
 }
 
 if (errors.length) {

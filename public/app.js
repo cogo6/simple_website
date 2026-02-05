@@ -107,6 +107,20 @@ function resetFeedback() {
   delete elements.feedback.dataset.state;
 }
 
+function clearChoiceStates() {
+  [elements.choiceAButton, elements.choiceBButton].forEach((button) => {
+    delete button.dataset.state;
+    button.classList.remove('pulse');
+  });
+}
+
+function animateChoice(button, stateName) {
+  button.dataset.state = stateName;
+  button.classList.remove('pulse');
+  void button.offsetWidth;
+  button.classList.add('pulse');
+}
+
 function lockChoices(locked) {
   state.locked = locked;
   elements.choiceAButton.disabled = locked;
@@ -141,6 +155,7 @@ function renderQuestion(question) {
     creditEl: elements.choiceBCredit,
   });
 
+  clearChoiceStates();
   resetFeedback();
   lockChoices(false);
 }
@@ -163,6 +178,10 @@ function handleAnswer(choice) {
   if (state.locked || !state.currentQuestion) return;
 
   const isCorrect = state.currentQuestion.correct === choice;
+  const selectedButton = choice === 'A' ? elements.choiceAButton : elements.choiceBButton;
+  const otherButton = choice === 'A' ? elements.choiceBButton : elements.choiceAButton;
+  const correctButton = state.currentQuestion.correct === 'A' ? elements.choiceAButton : elements.choiceBButton;
+
   state.stats.totalAnswered += 1;
 
   if (isCorrect) {
@@ -170,9 +189,15 @@ function handleAnswer(choice) {
     state.stats.streak += 1;
     state.stats.bestStreak = Math.max(state.stats.bestStreak, state.stats.streak);
     updateFeedback('Correct', true);
+    animateChoice(selectedButton, 'correct');
   } else {
     state.stats.streak = 0;
     updateFeedback('Wrong', false);
+    animateChoice(selectedButton, 'wrong');
+    animateChoice(correctButton, 'correct');
+    if (otherButton !== correctButton) {
+      otherButton.dataset.state = 'dim';
+    }
   }
 
   saveStats();
