@@ -98,54 +98,47 @@ class PhyloStore {
   }
 
   buildQuestion({ difficulty = 'medium', avoidKey = null } = {}) {
-    const targetCandidates = [...this.speciesIds];
     const acceptsGap = this.pickDifficultyBucket(difficulty);
+    const attempts = Math.max(500, this.speciesIds.length * 4);
 
-    for (let i = targetCandidates.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [targetCandidates[i], targetCandidates[j]] = [targetCandidates[j], targetCandidates[i]];
-    }
+    for (let i = 0; i < attempts; i += 1) {
+      const targetIdx = Math.floor(Math.random() * this.speciesIds.length);
+      const choiceAIdx = Math.floor(Math.random() * this.speciesIds.length);
+      const choiceBIdx = Math.floor(Math.random() * this.speciesIds.length);
 
-    for (const targetId of targetCandidates) {
-      const otherSpecies = this.speciesIds.filter((id) => id !== targetId);
-      for (let i = otherSpecies.length - 1; i > 0; i -= 1) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [otherSpecies[i], otherSpecies[j]] = [otherSpecies[j], otherSpecies[i]];
-      }
+      const targetId = this.speciesIds[targetIdx];
+      const choiceAId = this.speciesIds[choiceAIdx];
+      const choiceBId = this.speciesIds[choiceBIdx];
 
-      for (let i = 0; i < otherSpecies.length; i += 1) {
-        for (let j = i + 1; j < otherSpecies.length; j += 1) {
-          const choiceAId = otherSpecies[i];
-          const choiceBId = otherSpecies[j];
+      if (!targetId || !choiceAId || !choiceBId) continue;
+      if (targetId === choiceAId || targetId === choiceBId || choiceAId === choiceBId) continue;
 
-          const distanceA = this.distance(targetId, choiceAId);
-          const distanceB = this.distance(targetId, choiceBId);
+      const distanceA = this.distance(targetId, choiceAId);
+      const distanceB = this.distance(targetId, choiceBId);
 
-          if (!Number.isFinite(distanceA) || !Number.isFinite(distanceB)) continue;
-          if (distanceA === distanceB) continue;
+      if (!Number.isFinite(distanceA) || !Number.isFinite(distanceB)) continue;
+      if (distanceA === distanceB) continue;
 
-          const gap = Math.abs(distanceA - distanceB);
-          if (!acceptsGap(gap)) continue;
+      const gap = Math.abs(distanceA - distanceB);
+      if (!acceptsGap(gap)) continue;
 
-          const correct = distanceA < distanceB ? 'A' : 'B';
-          const key = `${targetId}:${choiceAId}:${choiceBId}`;
-          if (avoidKey && key === avoidKey) continue;
+      const correct = distanceA < distanceB ? 'A' : 'B';
+      const key = `${targetId}:${choiceAId}:${choiceBId}`;
+      if (avoidKey && key === avoidKey) continue;
 
-          return {
-            id: `dyn_${targetId}_${choiceAId}_${choiceBId}`,
-            target: this.getNode(targetId),
-            choiceA: this.getNode(choiceAId),
-            choiceB: this.getNode(choiceBId),
-            correct,
-            metrics: {
-              distanceA,
-              distanceB,
-              gap,
-            },
-            key,
-          };
-        }
-      }
+      return {
+        id: `dyn_${targetId}_${choiceAId}_${choiceBId}`,
+        target: this.getNode(targetId),
+        choiceA: this.getNode(choiceAId),
+        choiceB: this.getNode(choiceBId),
+        correct,
+        metrics: {
+          distanceA,
+          distanceB,
+          gap,
+        },
+        key,
+      };
     }
 
     return null;
