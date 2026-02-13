@@ -10,6 +10,7 @@ This app is an A/B quiz where each question asks:
 - File mode: taxonomy data is stored in normalized files (`data/taxonomy_nodes.ndjson`, `data/media_by_taxon.json`, `data/species_ids.json`) generated from `data/clade.json`.
 - DB mode: taxonomy data is loaded from PostgreSQL (`taxonomy_nodes`, `taxon_media`).
 - The server loads the taxonomy graph and computes relatedness using MRCA/distance.
+- Images are served from `/api/image/:id` with strict scientific-name lookup (Wikipedia) and a deterministic SVG fallback when no verified image is available.
 - The browser fetches generated questions from `GET /api/question`.
 - Stats are tracked in localStorage (`streak`, `bestStreak`, `totalAnswered`, `totalCorrect`, `accuracy`).
 

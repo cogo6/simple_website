@@ -70,16 +70,18 @@ function updateStatsUI() {
   elements.accuracy.textContent = `${accuracy}%`;
 }
 
-function setImage(imgElement, url, label, fallbackUrl = "") {
+function setImage(imgElement, url, label) {
   if (!imgElement) return;
   const safeUrl = typeof url === 'string' ? url.trim() : '';
   const safeLabel = label || 'species';
+  const requestKey = `${Date.now()}_${Math.random()}`;
+  imgElement.dataset.requestKey = requestKey;
 
   imgElement.dataset.status = 'loading';
   imgElement.onerror = null;
   imgElement.onload = null;
   imgElement.decoding = 'async';
-  imgElement.loading = 'lazy';
+  imgElement.loading = 'eager';
 
   if (!safeUrl) {
     imgElement.dataset.status = 'error';
@@ -89,19 +91,12 @@ function setImage(imgElement, url, label, fallbackUrl = "") {
   }
 
   imgElement.onload = () => {
+    if (imgElement.dataset.requestKey !== requestKey) return;
     imgElement.dataset.status = 'ready';
   };
 
-  const fallback = typeof fallbackUrl === 'string' ? fallbackUrl.trim() : '';
-  let usedFallback = false;
-
   imgElement.onerror = () => {
-    if (fallback && !usedFallback) {
-      usedFallback = true;
-      imgElement.dataset.status = 'loading';
-      imgElement.src = fallback;
-      return;
-    }
+    if (imgElement.dataset.requestKey !== requestKey) return;
     imgElement.dataset.status = 'error';
     imgElement.src = placeholderSvg;
     imgElement.alt = `${safeLabel} image unavailable`;
@@ -114,8 +109,8 @@ function setImage(imgElement, url, label, fallbackUrl = "") {
 function renderTaxon({ item, imageEl, labelEl, scientificEl, creditEl }) {
   labelEl.textContent = item.label;
   scientificEl.textContent = item.scientific_name || '';
-  creditEl.textContent = item.image_credit ? `Image: ${item.image_credit}` : 'Image: unavailable';
-  setImage(imageEl, item.image_url, item.label, item.image_source_url || "");
+  creditEl.textContent = item.image_credit ? `Image: ${item.image_credit}` : '';
+  setImage(imageEl, item.image_url, item.label);
 }
 
 function updateFeedback(message, isCorrect) {

@@ -193,12 +193,13 @@ class PhyloStore {
 
   formatTaxon(node) {
     const media = this.mediaByTaxon[node.id] || { imageUrl: '', imageCredit: '' };
+    const canRenderImage = node.rank === SPECIES_RANK || Boolean(media.imageUrl);
     return {
       id: node.id,
       label: node.commonName || node.scientificName,
       scientific_name: node.scientificName,
       common_name: node.commonName || '',
-      image_url: media.imageUrl ? `/api/image/${encodeURIComponent(node.id)}` : '',
+      image_url: canRenderImage ? `/api/image/${encodeURIComponent(node.id)}` : '',
       image_source_url: media.imageUrl || '',
       image_credit: media.imageCredit || '',
       rank: node.rank,
