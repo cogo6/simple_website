@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { Client } = require('pg');
 
 const SPECIES_RANK = 'species';
 
@@ -31,7 +32,7 @@ class PhyloStore {
     const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
     const mediaPath = path.join(dataDir, 'media_by_taxon.json');
     const speciesPath = path.join(dataDir, 'species_ids.json');
-    const taxonomyPath = path.join(dataDir, 'species_taxonomy.json');
+    const taxonomyPath = path.join(dataDir, 'clade.json');
 
     if (fs.existsSync(ndjsonPath) && fs.existsSync(mediaPath) && fs.existsSync(speciesPath)) {
       const lines = fs.readFileSync(ndjsonPath, 'utf8').split('\n').filter(Boolean);
@@ -56,6 +57,50 @@ class PhyloStore {
     ]));
 
     return new PhyloStore({ nodes, mediaByTaxon });
+  }
+
+  static async fromPostgres({ connectionString }) {
+    const client = new Client({ connectionString });
+    await client.connect();
+
+    try {
+      const nodeResult = await client.query(`
+        SELECT
+          id,
+          parent_id AS "parentId",
+          rank,
+          scientific_name AS "scientificName",
+          common_name AS "commonName"
+        FROM taxonomy_nodes
+      `);
+
+      const mediaResult = await client.query(`
+        SELECT
+          taxon_id AS id,
+          image_url AS "imageUrl",
+          image_credit AS "imageCredit"
+        FROM taxon_media
+      `);
+
+      const speciesResult = await client.query(`
+        SELECT id
+        FROM taxonomy_nodes
+        WHERE rank = 'species'
+        ORDER BY id
+      `);
+
+      const mediaByTaxon = Object.fromEntries(
+        mediaResult.rows.map((row) => [
+          row.id,
+          { imageUrl: row.imageUrl || '', imageCredit: row.imageCredit || '' },
+        ]),
+      );
+
+      const speciesIds = speciesResult.rows.map((row) => row.id);
+      return new PhyloStore({ nodes: nodeResult.rows, mediaByTaxon, speciesIds });
+    } finally {
+      await client.end();
+    }
   }
 
   getNode(id) {

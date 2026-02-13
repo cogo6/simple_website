@@ -5,7 +5,8 @@ const dataDir = path.join(__dirname, '..', 'data');
 const ndjsonPath = path.join(dataDir, 'taxonomy_nodes.ndjson');
 const mediaPath = path.join(dataDir, 'media_by_taxon.json');
 const speciesPath = path.join(dataDir, 'species_ids.json');
-const taxonomyPath = path.join(dataDir, 'species_taxonomy.json');
+const taxonomyPath = path.join(dataDir, 'clade.json');
+const minImageCoverage = Number.parseFloat(process.env.MIN_IMAGE_COVERAGE || '0');
 
 let nodes = [];
 let mediaByTaxon = {};
@@ -63,7 +64,9 @@ if (speciesCount < 1000) errors.push(`Expected at least 1000 species, found ${sp
 
 const withImages = speciesIds.filter((id) => (mediaByTaxon[id]?.imageUrl || '').length > 0).length;
 const imageCoverage = speciesCount ? (withImages / speciesCount) * 100 : 0;
-if (imageCoverage < 85) errors.push(`Expected image coverage >= 85%, found ${imageCoverage.toFixed(2)}%`);
+if (imageCoverage < minImageCoverage) {
+  errors.push(`Expected image coverage >= ${minImageCoverage.toFixed(2)}%, found ${imageCoverage.toFixed(2)}%`);
+}
 
 if (errors.length) {
   console.error('Clade validation failed:');

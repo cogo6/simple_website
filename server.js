@@ -4,7 +4,9 @@ const { PhyloStore } = require('./src/phylo');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const phylo = PhyloStore.fromDataDir(path.join(__dirname, 'data'));
+const dataDir = path.join(__dirname, 'data');
+let phylo = null;
+let phyloSource = 'file';
 const imageCache = new Map();
 const IMAGE_TTL_MS = 1000 * 60 * 60 * 12;
 const IMAGE_TIMEOUT_MS = 7000;
@@ -12,6 +14,27 @@ const IMAGE_TIMEOUT_MS = 7000;
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
+
+async function loadPhyloStore() {
+  const configuredSource = (process.env.PHYLO_SOURCE || 'postgres').toLowerCase();
+  const wantsDb = configuredSource === 'postgres' || Boolean(process.env.DATABASE_URL);
+  const mustUseDb = process.env.PHYLO_REQUIRE_DB === '1';
+  const connectionString = process.env.DATABASE_URL || 'postgres://postgres:postgres@localhost:5432/animals';
+
+  if (wantsDb) {
+    try {
+      phylo = await PhyloStore.fromPostgres({ connectionString });
+      phyloSource = 'postgres';
+      return;
+    } catch (error) {
+      if (mustUseDb) throw error;
+      console.warn(`Failed to load taxonomy from Postgres, falling back to files: ${error.message}`);
+    }
+  }
+
+  phylo = PhyloStore.fromDataDir(dataDir);
+  phyloSource = 'file';
+}
 
 function getCachedImage(cacheKey) {
   const cached = imageCache.get(cacheKey);
@@ -129,9 +152,22 @@ app.get('/api/species/:id', (req, res) => {
 });
 
 app.get('/api/health', (req, res) => {
-  res.json({ ok: true, speciesCount: phylo.speciesIds.length, imageCacheSize: imageCache.size });
+  res.json({
+    ok: true,
+    speciesCount: phylo.speciesIds.length,
+    imageCacheSize: imageCache.size,
+    source: phyloSource,
+  });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+async function startServer() {
+  await loadPhyloStore();
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port} (taxonomy source: ${phyloSource})`);
+  });
+}
+
+startServer().catch((error) => {
+  console.error(`Failed to start server: ${error.message}`);
+  process.exit(1);
 });

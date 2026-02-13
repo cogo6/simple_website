@@ -1,10 +1,9 @@
 {
-  "totalNodes": 1064,
-  "totalSpecies": 1034,
-  "imageCoverage": 100,
+  "totalNodes": 14617,
+  "totalSpecies": 11473,
+  "imageCoverage": 0,
   "kingdomCounts": {
-    "animalia": 34,
-    "synthetic": 1000
+    "2": 11473
   },
-  "generatedAt": "2026-02-05T16:59:47.592Z"
+  "generatedAt": "2026-02-13T08:08:58.234Z"
 }

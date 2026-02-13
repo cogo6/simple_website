@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputPath = path.join(__dirname, '..', 'data', 'species_taxonomy.json');
+const inputPath = path.join(__dirname, '..', 'data', 'clade.json');
 const outputNodesPath = path.join(__dirname, '..', 'data', 'taxonomy_nodes.ndjson');
 const outputMediaPath = path.join(__dirname, '..', 'data', 'media_by_taxon.json');
 const outputSpeciesPath = path.join(__dirname, '..', 'data', 'species_ids.json');
@@ -14,8 +14,22 @@ const nodes = parsed.nodes || [];
 const mediaByTaxon = {};
 const speciesIds = [];
 const kingdomCounts = {};
+const nodeById = new Map(nodes.map((node) => [node.id, node]));
 
 const lineBuffer = [];
+
+function findKingdomId(nodeId) {
+  let cursor = nodeById.get(nodeId) || null;
+  const seen = new Set();
+
+  while (cursor && !seen.has(cursor.id)) {
+    seen.add(cursor.id);
+    if (cursor.rank === 'kingdom') return cursor.id.toLowerCase();
+    cursor = cursor.parentId ? nodeById.get(cursor.parentId) || null : null;
+  }
+
+  return 'unknown';
+}
 
 for (const node of nodes) {
   const normalizedNode = {
@@ -30,13 +44,7 @@ for (const node of nodes) {
 
   if (node.rank === 'species') {
     speciesIds.push(node.id);
-
-    let kingdom = 'unknown';
-    if (node.id.includes('synthetic_species')) {
-      kingdom = 'synthetic';
-    } else if (node.parentId) {
-      kingdom = 'animalia';
-    }
+    const kingdom = findKingdomId(node.id);
     kingdomCounts[kingdom] = (kingdomCounts[kingdom] || 0) + 1;
   }
 

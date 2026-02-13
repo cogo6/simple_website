@@ -6,10 +6,42 @@ This app is an A/B quiz where each question asks:
 
 ## How it works
 
-- Taxonomy data is stored in normalized files (`data/taxonomy_nodes.ndjson`, `data/media_by_taxon.json`, `data/species_ids.json`) generated from `data/species_taxonomy.json`.
+- Canonical taxonomy source is `data/clade.json`.
+- File mode: taxonomy data is stored in normalized files (`data/taxonomy_nodes.ndjson`, `data/media_by_taxon.json`, `data/species_ids.json`) generated from `data/clade.json`.
+- DB mode: taxonomy data is loaded from PostgreSQL (`taxonomy_nodes`, `taxon_media`).
 - The server loads the taxonomy graph and computes relatedness using MRCA/distance.
 - The browser fetches generated questions from `GET /api/question`.
 - Stats are tracked in localStorage (`streak`, `bestStreak`, `totalAnswered`, `totalCorrect`, `accuracy`).
+
+## Run with Docker Postgres
+
+1. Start Postgres:
+
+```bash
+npm run db:up
+```
+
+2. Import `clade.json` into Postgres:
+
+```bash
+# If using a non-default mapped port, set DATABASE_URL first.
+# PowerShell example:
+# $env:DATABASE_URL = "postgres://postgres:postgres@localhost:5433/animals"
+npm run db:import
+```
+
+3. Start app in DB mode:
+
+```bash
+# PowerShell
+npm start
+```
+
+Optional environment variables:
+- `DATABASE_URL` (default: `postgres://postgres:postgres@localhost:5432/animals`)
+- `POSTGRES_PORT` for Docker port mapping (default: `5432`)
+- `PHYLO_SOURCE` (default: `postgres`, set to `file` to force local files)
+- `PHYLO_REQUIRE_DB=1` to fail fast instead of falling back to file mode
 
 ## API
 
@@ -23,6 +55,7 @@ This app is an A/B quiz where each question asks:
 Run:
 
 ```bash
+npm run build:clade
 npm run build:data
 npm run validate:clade
 ```
@@ -32,16 +65,9 @@ Validation checks:
 - missing parent IDs
 - parent-cycle detection
 - minimum species count
+- optional image-coverage threshold via `MIN_IMAGE_COVERAGE` (default `0`)
 
-## Scaling plan for a massive species set
-
-1. Replace `data/species_taxonomy.json` with a generated snapshot from Open Tree of Life / NCBI taxonomy.
-2. Move clade storage to DB tables (`nodes`, `edges`, `synonyms`, `media`).
-3. Add async ingestion jobs and versioned snapshots.
-4. Keep server-side question generation and cache lineage/MRCA lookups.
-
-
-## Intelligent storage format
+## Data artifacts
 
 - `taxonomy_nodes.ndjson`: one taxonomy node per line for stream-friendly loading.
 - `media_by_taxon.json`: compact id->image metadata lookup table.

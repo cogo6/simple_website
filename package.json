@@ -4,12 +4,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build:clade": "node scripts/build_clade_from_workbook.js",
     "validate:clade": "node scripts/validate_clade.js",
     "check": "node --check public/app.js && node --check server.js && node scripts/normalize_clade_data.js && node scripts/validate_clade.js",
-    "build:data": "node scripts/normalize_clade_data.js"
+    "build:data": "node scripts/normalize_clade_data.js",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "db:import": "node scripts/import_clade_to_postgres.js"
   },
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "ejs": "^3.1.9"
+    "pg": "^8.12.0",
+    "xlsx": "^0.18.5"
   }
 }
